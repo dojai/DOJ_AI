@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOJ AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="logo">✦</div>
+      <div>
+        <h2>DOJ AI</h2>
+        <p>Your smart AI companion</p>
+      </div>
+      <button id="clearBtn" class="clear-btn" title="Clear chat">↻</button>
+    </header>
+
+    <main id="chatBox">
+      <div class="welcome">
+        <h1>How can I help you?</h1>
+        <p>Ask me anything. I'm ready to assist!</p>
+      </div>
+    </main>
+
+    <div id="status" aria-live="polite"></div>
+
+    <form id="chatForm">
+      <textarea
+        id="userInput"
+        placeholder="Message your AI assistant..."
+        rows="2"
+        required
+      ></textarea>
+      <button id="sendBtn" type="submit">➤</button>
+    </form>
+
+    <footer>AI can make mistakes. Check important information.</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
